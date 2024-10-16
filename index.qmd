@@ -1,0 +1,26 @@
+---
+# For Scolar Frontmatter doc: https://quarto.org/docs/authoring/front-matter.html
+title: My Test Manuscript
+# date: 2024-10-16
+authors:
+  - name: Lukas Graz
+    affiliation: 
+      - name: ETH Zurich
+        city: Zurich
+        state: Switzerland
+        url: www.ethz.ch
+    roles: writing
+    orcid: 0009-0003-5147-8370
+    corresponding: true
+# license: "CC BY-NC-SA"
+# citation: 
+# funding: "The author received no specific funding for this work."
+keywords:
+  - KI
+  - AI
+abstract: > 
+  Bla Bla
+  Bla ...
+---
+
+HI there :)

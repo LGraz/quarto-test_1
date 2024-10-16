@@ -1,0 +1,19 @@
+project:
+  type: manuscript
+  execute-dir: project
+  # this does not work:
+  render:
+    - "notebooks/FOO.qmd"
+
+manuscript:
+  article: index.qmd
+  # commenting out the following lines unmasks `render:`
+  notebooks:
+    - notebook: notebooks/BAR.qmd
+      title: CarsPlot
+
+
+format:
+  html:
+    comments:
+      hypothesis: true

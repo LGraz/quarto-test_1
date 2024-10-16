@@ -1,0 +1,25 @@
+---
+title: Cars Plot
+author: Lukas Graz
+date: 2024-10-16
+---
+
+# Bonus 1
+run this document via `quarto render notebooks/BAR.qmd` and see that it is **NOT** the project root (c.f. `execute-dir: project` in `_quarto.yml`)
+```{r}
+getwd()
+```
+
+
+# Bonus 2
+uncomment this and paths screq up
+```{r}
+# library(qreport)
+# library(ggplot2)
+# qreport::maketabs(
+#   list(
+#     ggplot(cars, aes(x = speed, y = dist)) + geom_point(),
+#     ggplot(cars, aes(x = speed, y = dist)) + geom_jitter()
+# ))
+```
+
